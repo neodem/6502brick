@@ -1,9 +1,10 @@
 GAL16V8                ; this is the second example
 Exa.2
 
-NC  A8  A9  A10  A11  A12  A13  A14 A15 GND
-NC CS8 CS7 CS6 IO UART ROM RAM NC VCC
+P2  A8  A9  A10  A11  A12  A13  A14 A15 GND
+NC CS8 CS7 CS6 IO UART ROM RAM CS1 VCC
 
+CS1 = P2
 
 RAM = A15
 
